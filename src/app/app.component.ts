@@ -3,9 +3,10 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'], // Attention au nom (styleUrls au pluriel)
+  standalone: true,
+  imports: [RouterOutlet], // Ajoutez les modules nécessaires ici
 })
 export class AppComponent {
   title = 'MAKE_UP';

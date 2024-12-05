@@ -1,0 +1,54 @@
+<div class="container mt-5">
+    <h2 class="text-center">Update Product</h2>
+    <form (ngSubmit)="onSubmit()" #updateForm="ngForm">
+      <div class="form-group mb-3">
+        <label for="brand" class="form-label">Brand</label>
+        <input
+          type="text"
+          id="brand"
+          class="form-control"
+          [(ngModel)]="productToUpdate.brand"
+          name="brand"
+          required
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label for="category" class="form-label">Category</label>
+        <input
+          type="text"
+          id="category"
+          class="form-control"
+          [(ngModel)]="productToUpdate.category"
+          name="category"
+          required
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label for="quantity" class="form-label">Quantity</label>
+        <input
+          type="number"
+          id="quantity"
+          class="form-control"
+          [(ngModel)]="productToUpdate.quantity"
+          name="quantity"
+          required
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label for="status" class="form-label">Status</label>
+        <input
+          type="text"
+          id="status"
+          class="form-control"
+          [(ngModel)]="productToUpdate.status"
+          name="status"
+          required
+        />
+      </div>
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-success">Save Changes</button>
+        <button type="button" class="btn btn-secondary" (click)="onCancel()">Cancel</button>
+      </div>
+    </form>
+  </div>
+  

@@ -1,0 +1,68 @@
+/* Style du titre */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #192745; /* Bleu foncé */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style du formulaire */
+  form {
+    background-color: #f2f2f3; /* Fond bleu clair */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style des labels */
+  .form-label {
+    font-size: 1.1rem;
+    color: #192745; /* Bleu foncé */
+  }
+  
+  /* Style des champs de saisie */
+  input.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Boutons */
+  button.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button.btn-success {
+    background-color: #dc3545; /* Vert */
+  }
+  
+  button.btn-success:hover {
+    background-color: #c82333; /* Vert foncé */
+  }
+  
+  button.btn-secondary {
+    background-color: #ffc107; /* Gris */
+  }
+  
+  button.btn-secondary:hover {
+    background-color: #e0a800; /* Gris foncé */
+  }
+  
+  /* Pour aligner les boutons */
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  

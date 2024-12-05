@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "category": "Lipstick",
+      "brand": "chanel",
+      "quantity": 10,
+      "launchDate": "2024-12-01",
+      "status": "In stock"
+    },
+    {
+      "id": "2",
+      "category": "Shadow palette",
+      "brand": "Dior",
+      "quantity": 55,
+      "launchDate": "2025-01-15",
+      "status": "In production"
+    },
+    {
+      "id": "3",
+      "category": "Lipstick",
+      "brand": "clarins",
+      "quantity": 44,
+      "launchDate": "2024-18-10",
+      "status": "In stock"
+    },
+    {
+      "id": "4",
+      "category": "Mascara",
+      "brand": "yves saint laurent",
+      "quantity": 70,
+      "launchDate": "2023-12-01",
+      "status": "In stock"
+    },
+    {
+      "id": "5",
+      "category": "Parfum",
+      "brand": "Giorgio Armani",
+      "quantity": 100,
+      "launchDate": "2022-05-11",
+      "status": "In stock"
+    },
+    {
+      "id": "6",
+      "category": "Parfum",
+      "brand": "gucci",
+      "quantity": 0,
+      "launchDate": "2023-12-11",
+      "status": "Out of stock"
+    },
+    {
+      "id": "7",
+      "category": "Foundation",
+      "brand": "Bourgois",
+      "quantity": 12,
+      "launchDate": "2023-02-10",
+      "status": "In stock"
+    },
+    {
+      "id": "8",
+      "category": "Countour",
+      "brand": "Givenchy",
+      "quantity": 2,
+      "launchDate": "2022-06-02",
+      "status": "In stock"
+    },
+    {
+      "id": "1733352823869",
+      "category": "Gloss",
+      "brand": "Dior",
+      "quantity": 15,
+      "launchDate": "2022-01-08",
+      "status": "In stock"
+    },
+    {
+      "id": "1733353225705",
+      "category": "EyeLiner",
+      "brand": "Maybelline",
+      "quantity": 500,
+      "launchDate": "2023-12-12",
+      "status": "In stock"
+    },
+    {
+      "id": "1733353335500",
+      "category": "blush",
+      "brand": "Astra",
+      "quantity": 75,
+      "launchDate": "2015-10-29",
+      "status": "In stock"
+    },
+    {
+      "id": "1733353373195",
+      "category": "Mascara",
+      "brand": "Astra",
+      "quantity": 0,
+      "launchDate": "2014-01-17",
+      "status": "Out of stock"
+    }
+  ]
+}
